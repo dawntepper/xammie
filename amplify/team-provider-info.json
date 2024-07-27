@@ -1,0 +1,24 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-xamvp-dev-eefe3-authRole",
+      "UnauthRoleArn": "arn:aws:iam::471112500401:role/amplify-xamvp-dev-eefe3-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::471112500401:role/amplify-xamvp-dev-eefe3-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-xamvp-dev-eefe3-deployment",
+      "UnauthRoleName": "amplify-xamvp-dev-eefe3-unauthRole",
+      "StackName": "amplify-xamvp-dev-eefe3",
+      "StackId": "arn:aws:cloudformation:us-east-1:471112500401:stack/amplify-xamvp-dev-eefe3/17771b50-4c6e-11ef-a0a7-0afffe9bd9f9",
+      "AmplifyAppId": "d3sgclyrf7shdz",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-xamvp-dev-eefe3-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "xamda": {}
+      },
+      "auth": {
+        "xamvp": {}
+      }
+    }
+  }
+}
