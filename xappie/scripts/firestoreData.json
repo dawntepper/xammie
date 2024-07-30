@@ -1,0 +1,76 @@
+{
+    "users": {
+      "userId123": {
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "profilePicture": "url_to_profile_picture",
+        "bio": "A short bio about John",
+        "posts": {
+          "postId456": {
+            "content": "This is a post",
+            "timestamp": 1632986400000,
+            "likes": 23,
+            "comments": [
+              {
+                "userId": "userId789",
+                "comment": "Nice post!",
+                "timestamp": 1632986500000
+              }
+            ]
+          }
+        },
+        "followers": {
+          "followerId123": {
+            "followerId": "userId456",
+            "timestamp": 1632986400000
+          }
+        }
+      }
+    },
+    "posts": {
+      "postId456": {
+        "userId": "userId123",
+        "content": "This is a post",
+        "timestamp": 1632986400000,
+        "likes": 23,
+        "comments": [
+          {
+            "userId": "userId789",
+            "comment": "Nice post!",
+            "timestamp": 1632986500000
+          }
+        ]
+      }
+    },
+    "messages": {
+      "messageId789": {
+        "senderId": "userId123",
+        "receiverId": "userId456",
+        "content": "Hello!",
+        "timestamp": 1632986400000
+      }
+    },
+    "comments": {
+      "commentId123": {
+        "postId": "postId456",
+        "userId": "userId789",
+        "content": "Nice post!",
+        "timestamp": 1632986500000
+      }
+    },
+    "likes": {
+      "likeId123": {
+        "postId": "postId456",
+        "userId": "userId789",
+        "timestamp": 1632986500000
+      }
+    },
+    "followers": {
+      "followerId123": {
+        "userId": "userId123",
+        "followerId": "userId456",
+        "timestamp": 1632986400000
+      }
+    }
+  }
+  
