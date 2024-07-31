@@ -26,6 +26,10 @@ log.txt
 /platforms
 /plugins
 
+# Scripts
+/scripts/firestoreData.json
+/scripts/importData.json
+
 # Compiled output
 /dist
 /tmp
@@ -67,6 +71,7 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
+
 
 # System files
 .DS_Store
