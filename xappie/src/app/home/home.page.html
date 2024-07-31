@@ -1,16 +1,25 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-title>Home</ion-title>
   </ion-toolbar>
 </ion-header>
-
+<ion-icon name="logo-ionic"></ion-icon>
+<ion-icon name="logo-ionic" size="large"></ion-icon>
+<ion-icon name="logo-ionic" color="primary"></ion-icon>
+<ion-icon name="logo-ionic" size="large" color="primary"></ion-icon>
 <ion-content>
   <ion-list>
     <ion-item *ngFor="let post of posts">
+      <!-- <ion-avatar slot="start">
+        <img src="path/to/profile-picture" alt="Profile Picture">
+      </ion-avatar> -->
       <ion-label>
         <h2>{{ post.content }}</h2>
-        <p>{{ post.timestamp | date }}</p>
-        <p>{{ post.likes }} likes</p>
+        <p>{{ post.timestamp | date:'medium' }}</p>
+        <ion-chip>
+          <ion-icon name="thumbs-up" slot="start"></ion-icon>
+          <ion-label>{{ post.likes }} likes</ion-label>
+        </ion-chip>
       </ion-label>
     </ion-item>
   </ion-list>
