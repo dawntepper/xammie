@@ -30,6 +30,9 @@ log.txt
 /scripts/firestoreData.json
 /scripts/importData.json
 
+# Secrets
+/config/xappie-3296-firebase-adminsdk-rgo9o-f1b6beea4f.json
+
 # Compiled output
 /dist
 /tmp
