@@ -8,25 +8,23 @@ Before running the project, you need to set up your environment configuration. F
 
 3. Update the `src/environments/environment.ts` file with your Firebase configuration:
 
-      export const environment = {
+         export const environment = {
+               production: false,
+               firebaseConfig: {
    
-         production: false,
+               apiKey: "YOUR_API_KEY",
    
-         firebaseConfig: {
+               authDomain: "YOUR_AUTH_DOMAIN",
    
-         apiKey: "YOUR_API_KEY",
+               projectId: "YOUR_PROJECT_ID",
    
-         authDomain: "YOUR_AUTH_DOMAIN",
+               storageBucket: "YOUR_STORAGE_BUCKET",
+         
+               messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
    
-         projectId: "YOUR_PROJECT_ID",
+               appId: "YOUR_APP_ID",
    
-         storageBucket: "YOUR_STORAGE_BUCKET",
-   
-         messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-   
-         appId: "YOUR_APP_ID",
-   
-         measurementId: "YOUR_MEASUREMENT_ID",
+               measurementId: "YOUR_MEASUREMENT_ID",
    
          },
    
