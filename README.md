@@ -6,7 +6,7 @@ Before running the project, you need to set up your environment configuration. F
 
    cp src/environments/environment.template.ts src/environments/environment.ts
 
-2. Update the `src/environments/environment.ts` file with your Firebase configuration:
+3. Update the `src/environments/environment.ts` file with your Firebase configuration:
 
    export const environment = {
    production: false,
