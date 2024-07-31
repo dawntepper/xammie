@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FirestoreService } from '../services/firestore.service';
+import { addIcons } from 'ionicons';
+import { logoIonic } from 'ionicons/icons';
 
 @Component({
   selector: 'app-home',
