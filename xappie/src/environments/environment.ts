@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_AUTH_DOMAIN",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_STORAGE_BUCKET",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID",
-    measurementId: "YOUR_MEASUREMENT_ID"
+    apiKey: "AIzaSyBf_1SmPxsH8r55MAFDrLDXIVA0oXr3Tag",
+    authDomain: "xappie-3296.firebaseapp.com",
+    projectId: "xappie-3296",
+    storageBucket: "xappie-3296.appspot.com",
+    messagingSenderId: "989028714187",
+    appId: "1:989028714187:web:98d55cf7194c0dfc0ffd4e",
+    measurementId: "G-BVXS8CBBC4"
   }
 };
 

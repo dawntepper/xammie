@@ -1,19 +1,19 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
-import { IonicModule } from '@ionic/angular';
+import { Component, OnInit } from '@angular/core';
+import { FirestoreService } from '../services/firestore.service';
 
-import { HomePageRoutingModule } from './home-routing.module';
-
-import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-
-@NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule, // Ensure this is imported
-    HomePageRoutingModule
-  ],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA] // Add this line
+@Component({
+  selector: 'app-home',
+  templateUrl: './home.page.html',
+  styleUrls: ['./home.page.scss'],
 })
-export class HomePageModule {}
+export class HomePage implements OnInit {
+  posts: any[] = []; // Define and initialize the posts property
+
+  constructor(private firestoreService: FirestoreService) {}
+
+  ngOnInit() {
+    this.firestoreService.getPosts().subscribe(posts => {
+      this.posts = posts;
+    });
+  }
+}

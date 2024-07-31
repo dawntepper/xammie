@@ -5,7 +5,7 @@ import { environment } from './environments/environment';
 
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { provideRouter, RouteReuseStrategy } from '@angular/router';
-import { routes } from './app/app.routes';
+import { routes } from './app/app-routing.module';
 
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';

@@ -6,15 +6,11 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class FirestoreService {
-
-  constructor(private firestore: AngularFirestore) { }
-
-  addPost(post: any): Promise<void> {
-    const id = this.firestore.createId();
-    return this.firestore.doc(`posts/${id}`).set(post);
-  }
+  constructor(private firestore: AngularFirestore) {}
 
   getPosts(): Observable<any[]> {
     return this.firestore.collection('posts').valueChanges();
   }
+
+  // Add other methods as needed...
 }

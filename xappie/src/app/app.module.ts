@@ -6,8 +6,7 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { SplashScreen } from '@awesome-cordova-plugins/splash-screen/ngx';
 import { StatusBar } from '@awesome-cordova-plugins/status-bar/ngx';
 
-import { AppComponent } from './app.component';
-import { AppRoutingModule } from './app.routes'; // Ensure this path is correct
+import { AppRoutingModule } from './app-routing.module'; // Ensure this path is correct
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { environment } from '../environments/environment';
