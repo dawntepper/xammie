@@ -1,0 +1,35 @@
+[
+    {
+      "userId": "userId123",
+      "username": "John Doe",
+      "profilePicture": "https://example.com/profile-pictures/john.jpg",
+      "activityDescription": "Adopted a minimalist lifestyle.",
+      "carbonFootprintSaved": 0.7,
+      "timestamp": "2024-07-30T12:34:56Z",
+      "likes": 20,
+      "comments": [
+        {
+          "username": "Jane Smith",
+          "comment": "I’m inspired!",
+          "timestamp": "2024-07-30T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "userId": "userId456",
+      "username": "Jane Smith",
+      "profilePicture": "https://example.com/profile-pictures/jane.jpg",
+      "activityDescription": "Advocated for local environmental policies.",
+      "carbonFootprintSaved": 0.5,
+      "timestamp": "2024-07-29T10:20:30Z",
+      "likes": 25,
+      "comments": [
+        {
+          "username": "John Doe",
+          "comment": "We need more people like you!",
+          "timestamp": "2024-07-29T11:00:00Z"
+        }
+      ]
+    }
+  ]
+  

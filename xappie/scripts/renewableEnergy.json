@@ -1,0 +1,35 @@
+[
+    {
+      "userId": "userId123",
+      "username": "John Doe",
+      "profilePicture": "https://example.com/profile-pictures/john.jpg",
+      "activityDescription": "Subscribed to a green energy plan.",
+      "carbonFootprintSaved": 1.8,
+      "timestamp": "2024-07-30T12:34:56Z",
+      "likes": 30,
+      "comments": [
+        {
+          "username": "Jane Smith",
+          "comment": "Great initiative!",
+          "timestamp": "2024-07-30T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "userId": "userId456",
+      "username": "Jane Smith",
+      "profilePicture": "https://example.com/profile-pictures/jane.jpg",
+      "activityDescription": "Installed solar panels.",
+      "carbonFootprintSaved": 3.0,
+      "timestamp": "2024-07-29T10:20:30Z",
+      "likes": 50,
+      "comments": [
+        {
+          "username": "John Doe",
+          "comment": "Impressive!",
+          "timestamp": "2024-07-29T11:00:00Z"
+        }
+      ]
+    }
+  ]
+  

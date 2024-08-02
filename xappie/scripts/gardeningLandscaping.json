@@ -1,0 +1,51 @@
+[
+    {
+      "userId": "userId123",
+      "username": "John Doe",
+      "profilePicture": "https://example.com/profile-pictures/john.jpg",
+      "activityDescription": "Planted native species in my garden.",
+      "carbonFootprintSaved": 0.3,
+      "timestamp": "2024-07-30T12:34:56Z",
+      "likes": 14,
+      "comments": [
+        {
+          "username": "Jane Smith",
+          "comment": "Looks beautiful!",
+          "timestamp": "2024-07-30T13:00:00"
+        }
+        ]
+    },
+    {
+      "userId": "userId123",
+      "username": "John Doe",
+      "profilePicture": "https://example.com/profile-pictures/john.jpg",
+      "activityDescription": "Planted native species in my garden.",
+      "carbonFootprintSaved": 0.3,
+      "timestamp": "2024-07-30T12:34:56Z",
+      "likes": 14,
+      "comments": [
+        {
+          "username": "Jane Smith",
+          "comment": "Looks beautiful!",
+          "timestamp": "2024-07-30T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "userId": "userId456",
+      "username": "Jane Smith",
+      "profilePicture": "https://example.com/profile-pictures/jane.jpg",
+      "activityDescription": "Started composting kitchen waste.",
+      "carbonFootprintSaved": 0.5,
+      "timestamp": "2024-07-29T10:20:30Z",
+      "likes": 20,
+      "comments": [
+        {
+          "username": "John Doe",
+          "comment": "Great way to recycle!",
+          "timestamp": "2024-07-29T11:00:00Z"
+        }
+      ]
+    }
+  ]
+  

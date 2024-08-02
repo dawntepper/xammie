@@ -7,16 +7,16 @@ import { FeedItem } from '../models/feed-item.model';
 @Injectable({
   providedIn: 'root'
 })
-export class WaterUsageService {
+export class ClothingTextilesService {
 
   constructor(private firestore: AngularFirestore) {}
 
-  getWaterUsage(): Observable<any[]> {
-    return this.firestore.collection('waterUsage').valueChanges();
+  getClothingTextiles(): Observable<any[]> {
+    return this.firestore.collection('clothingTextiles').valueChanges();
   }
 
-  addWaterUsage(data: any) {
-    return this.firestore.collection('waterUsage').add(data);
+  addClothingTextiles(data: any) {
+    return this.firestore.collection('clothingTextiles').add(data);
   }
 
 }

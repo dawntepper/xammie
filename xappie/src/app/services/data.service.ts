@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
+import { FeedItem } from '../models/feed-item.model';
 
 @Injectable({
   providedIn: 'root'

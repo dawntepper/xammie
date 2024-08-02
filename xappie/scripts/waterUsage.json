@@ -1,0 +1,35 @@
+[
+    {
+      "userId": "userId123",
+      "username": "John Doe",
+      "profilePicture": "https://example.com/profile-pictures/john.jpg",
+      "activityDescription": "Installed a low-flow showerhead.",
+      "carbonFootprintSaved": 0.5,
+      "timestamp": "2024-07-30T12:34:56Z",
+      "likes": 12,
+      "comments": [
+        {
+          "username": "Jane Smith",
+          "comment": "Good idea!",
+          "timestamp": "2024-07-30T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "userId": "userId456",
+      "username": "Jane Smith",
+      "profilePicture": "https://example.com/profile-pictures/jane.jpg",
+      "activityDescription": "Fixed a leaking faucet.",
+      "carbonFootprintSaved": 0.3,
+      "timestamp": "2024-07-29T10:20:30Z",
+      "likes": 9,
+      "comments": [
+        {
+          "username": "John Doe",
+          "comment": "I'll check mine too!",
+          "timestamp": "2024-07-29T11:00:00Z"
+        }
+      ]
+    }
+  ]
+  

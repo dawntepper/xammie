@@ -1,0 +1,35 @@
+[
+    {
+      "userId": "userId123",
+      "username": "John Doe",
+      "profilePicture": "https://example.com/profile-pictures/john.jpg",
+      "activityDescription": "Bought a second-hand jacket.",
+      "carbonFootprintSaved": 0.2,
+      "timestamp": "2024-07-30T12:34:56Z",
+      "likes": 8,
+      "comments": [
+        {
+          "username": "Jane Smith",
+          "comment": "Good find!",
+          "timestamp": "2024-07-30T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "userId": "userId456",
+      "username": "Jane Smith",
+      "profilePicture": "https://example.com/profile-pictures/jane.jpg",
+      "activityDescription": "Washing clothes with cold water.",
+      "carbonFootprintSaved": 0.1,
+      "timestamp": "2024-07-29T10:20:30Z",
+      "likes": 10,
+      "comments": [
+        {
+          "username": "John Doe",
+          "comment": "I'll try this!",
+          "timestamp": "2024-07-29T11:00:00Z"
+        }
+      ]
+    }
+  ]
+  

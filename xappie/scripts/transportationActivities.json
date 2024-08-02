@@ -1,0 +1,83 @@
+[
+    {
+      "userId": "userId123",
+      "username": "John Doe",
+      "profilePicture": "https://example.com/profile-pictures/john.jpg",
+      "activityDescription": "Walked to work instead of driving.",
+      "transportationMode": "walked",
+      "carbonFootprintSaved": 0.5,
+      "distance": 3,
+      "mediaUrl": "https://example.com/media/walk.jpg",
+      "timestamp": "2024-07-30T08:00:00Z",
+      "likes": 15,
+      "comments": [
+        {
+          "username": "Jane Smith",
+          "comment": "Great job!",
+          "timestamp": "2024-07-30T08:30:00Z"
+        }
+      ],
+      "routeMapUrl": "https://maps.google.com/?q=route1"
+    },
+    {
+      "userId": "userId456",
+      "username": "Jane Smith",
+      "profilePicture": "https://example.com/profile-pictures/jane.jpg",
+      "activityDescription": "Biked to the grocery store instead of driving.",
+      "transportationMode": "biked",
+      "carbonFootprintSaved": 1.2,
+      "distance": 5,
+      "mediaUrl": "https://example.com/media/bike.jpg",
+      "timestamp": "2024-07-29T09:00:00Z",
+      "likes": 20,
+      "comments": [
+        {
+          "username": "John Doe",
+          "comment": "Inspiring!",
+          "timestamp": "2024-07-29T09:30:00Z"
+        }
+      ],
+      "routeMapUrl": "https://maps.google.com/?q=route2"
+    },
+    {
+      "userId": "userId789",
+      "username": "Mike Johnson",
+      "profilePicture": "https://example.com/profile-pictures/mike.jpg",
+      "activityDescription": "Took the bus to the office instead of driving.",
+      "transportationMode": "bus",
+      "carbonFootprintSaved": 0.8,
+      "distance": 10,
+      "mediaUrl": "https://example.com/media/bus.jpg",
+      "timestamp": "2024-07-28T07:30:00Z",
+      "likes": 10,
+      "comments": [
+        {
+          "username": "Alice Brown",
+          "comment": "Nice!",
+          "timestamp": "2024-07-28T08:00:00Z"
+        }
+      ],
+      "routeMapUrl": "https://maps.google.com/?q=route3"
+    },
+    {
+      "userId": "userId321",
+      "username": "Alice Brown",
+      "profilePicture": "https://example.com/profile-pictures/alice.jpg",
+      "activityDescription": "Carpooled with colleagues instead of driving alone.",
+      "transportationMode": "carpool",
+      "carbonFootprintSaved": 0.4,
+      "distance": 15,
+      "mediaUrl": "https://example.com/media/carpool.jpg",
+      "timestamp": "2024-07-27T08:45:00Z",
+      "likes": 25,
+      "comments": [
+        {
+          "username": "Mike Johnson",
+          "comment": "Way to go!",
+          "timestamp": "2024-07-27T09:00:00Z"
+        }
+      ],
+      "routeMapUrl": "https://maps.google.com/?q=route4"
+    }
+  ]
+  

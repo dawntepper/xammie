@@ -1,0 +1,189 @@
+[
+    {
+      "userId": "userId123",
+      "username": "John Doe",
+      "profilePicture": "https://example.com/profile-pictures/john.jpg",
+      "mealDescription": "Vegan burrito bowl with black beans, quinoa, and avocado.",
+      "carbonFootprintSaved": 1.1,
+      "mediaUrl": "https://example.com/media/vegan-burrito.jpg",
+      "timestamp": "2024-07-30T12:34:56Z",
+      "likes": 20,
+      "comments": [
+        {
+          "username": "Jane Smith",
+          "comment": "Looks delicious!",
+          "timestamp": "2024-07-30T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "userId": "userId456",
+      "username": "Jane Smith",
+      "profilePicture": "https://example.com/profile-pictures/jane.jpg",
+      "mealDescription": "Tofu stir-fry with mixed vegetables and brown rice.",
+      "carbonFootprintSaved": 0.9,
+      "mediaUrl": "https://example.com/media/tofu-stirfry.jpg",
+      "timestamp": "2024-07-29T10:20:30Z",
+      "likes": 15,
+      "comments": [
+        {
+          "username": "John Doe",
+          "comment": "I need to try this recipe!",
+          "timestamp": "2024-07-29T11:00:00Z"
+        }
+      ]
+    },
+    {
+      "userId": "userId123",
+      "username": "John Doe",
+      "profilePicture": "https://example.com/profile-pictures/john.jpg",
+      "mealDescription": "Vegan burrito bowl with black beans, quinoa, and avocado.",
+      "carbonFootprintSaved": 1.1,
+      "mediaUrl": "https://example.com/media/vegan-burrito.jpg",
+      "timestamp": "2024-07-30T12:34:56Z",
+      "likes": 20,
+      "comments": [
+        {
+          "username": "Jane Smith",
+          "comment": "Looks delicious!",
+          "timestamp": "2024-07-30T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "userId": "userId456",
+      "username": "Jane Smith",
+      "profilePicture": "https://example.com/profile-pictures/jane.jpg",
+      "mealDescription": "Tofu stir-fry with mixed vegetables and brown rice.",
+      "carbonFootprintSaved": 0.9,
+      "mediaUrl": "https://example.com/media/tofu-stirfry.jpg",
+      "timestamp": "2024-07-29T10:20:30Z",
+      "likes": 15,
+      "comments": [
+        {
+          "username": "John Doe",
+          "comment": "I need to try this recipe!",
+          "timestamp": "2024-07-29T11:00:00Z"
+        }
+      ]
+    },
+    {
+      "userId": "userId789",
+      "username": "Mike Johnson",
+      "profilePicture": "https://example.com/profile-pictures/mike.jpg",
+      "mealDescription": "Chickpea curry with spinach and basmati rice.",
+      "carbonFootprintSaved": 1.3,
+      "mediaUrl": "https://example.com/media/chickpea-curry.jpg",
+      "timestamp": "2024-07-28T09:15:00Z",
+      "likes": 25,
+      "comments": [
+        {
+          "username": "John Doe",
+          "comment": "Yummy!",
+          "timestamp": "2024-07-28T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "userId": "userId321",
+      "username": "Alice Brown",
+      "profilePicture": "https://example.com/profile-pictures/alice.jpg",
+      "mealDescription": "Lentil soup with carrots, celery, and potatoes.",
+      "carbonFootprintSaved": 0.8,
+      "mediaUrl": "https://example.com/media/lentil-soup.jpg",
+      "timestamp": "2024-07-27T14:00:00Z",
+      "likes": 10,
+      "comments": [
+        {
+          "username": "Jane Smith",
+          "comment": "Perfect for a chilly day!",
+          "timestamp": "2024-07-27T14:30:00Z"
+        }
+      ]
+    },
+    {
+      "userId": "userId654",
+      "username": "Chris Evans",
+      "profilePicture": "https://example.com/profile-pictures/chris.jpg",
+      "mealDescription": "Vegan pizza with cashew cheese and assorted veggies.",
+      "carbonFootprintSaved": 1.0,
+      "mediaUrl": "https://example.com/media/vegan-pizza.jpg",
+      "timestamp": "2024-07-26T18:45:00Z",
+      "likes": 30,
+      "comments": [
+        {
+          "username": "Mike Johnson",
+          "comment": "Best pizza ever!",
+          "timestamp": "2024-07-26T19:00:00Z"
+        }
+      ]
+    },
+    {
+      "userId": "userId987",
+      "username": "Emma Watson",
+      "profilePicture": "https://example.com/profile-pictures/emma.jpg",
+      "mealDescription": "Quinoa salad with chickpeas, cucumber, and mint.",
+      "carbonFootprintSaved": 0.7,
+      "mediaUrl": "https://example.com/media/quinoa-salad.jpg",
+      "timestamp": "2024-07-25T12:30:00Z",
+      "likes": 40,
+      "comments": [
+        {
+          "username": "Alice Brown",
+          "comment": "Looks so refreshing!",
+          "timestamp": "2024-07-25T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "userId": "userId246",
+      "username": "Liam Neeson",
+      "profilePicture": "https://example.com/profile-pictures/liam.jpg",
+      "mealDescription": "Vegan tacos with black beans, corn, and avocado.",
+      "carbonFootprintSaved": 1.2,
+      "mediaUrl": "https://example.com/media/vegan-tacos.jpg",
+      "timestamp": "2024-07-24T20:00:00Z",
+      "likes": 22,
+      "comments": [
+        {
+          "username": "Chris Evans",
+          "comment": "Taco night done right!",
+          "timestamp": "2024-07-24T20:30:00Z"
+        }
+      ]
+    },
+    {
+      "userId": "userId135",
+      "username": "Olivia Wilde",
+      "profilePicture": "https://example.com/profile-pictures/olivia.jpg",
+      "mealDescription": "Vegetable stir-fry with tofu and brown rice.",
+      "carbonFootprintSaved": 0.9,
+      "mediaUrl": "https://example.com/media/veg-stirfry.jpg",
+      "timestamp": "2024-07-23T19:15:00Z",
+      "likes": 18,
+      "comments": [
+        {
+          "username": "Emma Watson",
+          "comment": "Healthy and delicious!",
+          "timestamp": "2024-07-23T19:45:00Z"
+        }
+      ]
+    },
+    {
+      "userId": "userId975",
+      "username": "Robert Downey",
+      "profilePicture": "https://example.com/profile-pictures/robert.jpg",
+      "mealDescription": "Eggplant parmesan with marinara sauce.",
+      "carbonFootprintSaved": 0.6,
+      "mediaUrl": "https://example.com/media/eggplant-parm.jpg",
+      "timestamp": "2024-07-22T18:00:00Z",
+      "likes": 28,
+      "comments": [
+        {
+          "username": "Liam Neeson",
+          "comment": "Looks amazing!",
+          "timestamp": "2024-07-22T18:30:00Z"
+        }
+    ]
+    }
+]
