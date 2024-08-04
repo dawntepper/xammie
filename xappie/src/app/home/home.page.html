@@ -7,10 +7,18 @@
 <ion-content>
   <ion-card>
     <ion-card-header>
-      <ion-card-title>Total Carbon Footprint Saved: {{ totalCarbonSaved | number:'1.2-2' }} kg CO2</ion-card-title>
+      <ion-card-title>We Saved: {{ totalCarbonSaved | number:'1.2-2' }} kg CO2!</ion-card-title>
     </ion-card-header>
+    <ion-card-content>
+      <p>This is equivalent to:</p>
+      <ul>
+        <li>Driving a car for 55 kilometers (34 miles)</li>
+        <li>Not using a 100-watt light bulb for nearly 19 days</li>
+        <li>The amount of CO2 absorbed by 0.66 trees in a year</li>
+      </ul>
+      <img src="https://s3.amazonaws.com/xammie.io/chart.png" alt="Visualization of CO2 savings" height="300" width="400">
+    </ion-card-content>
   </ion-card>
-
   <ion-list>
     <ion-item *ngFor="let item of feed">
       <ion-avatar slot="start">

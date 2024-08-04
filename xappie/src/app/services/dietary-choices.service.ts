@@ -17,4 +17,13 @@ export class DietaryChoicesService {
   addDietaryChoices(data: any) {
     return this.firestore.collection('dietaryChoices').add(data);
   }
+
+  updateDietaryChoice(id: string, data: Partial<FeedItem>) {
+    return this.firestore.collection('dietaryChoices').doc(id).update(data);
+  }
+
+  deleteDietaryChoice(id: string) {
+    return this.firestore.collection('dietaryChoices').doc(id).delete();
+  }
+  
 }

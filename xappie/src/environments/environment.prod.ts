@@ -1,12 +1,12 @@
 export const environment = {
   production: true,
   firebaseConfig: {
-    apiKey: "AIzaSyBf_1SmPxsH8r55MAFDrLDXIVA0oXr3Tag",
-    authDomain: "xappie-3296.firebaseapp.com",
-    projectId: "xappie-3296",
-    storageBucket: "xappie-3296.appspot.com",
-    messagingSenderId: "989028714187",
-    appId: "1:989028714187:web:98d55cf7194c0dfc0ffd4e",
-    measurementId: "G-BVXS8CBBC4"
+    apiKey: process.env['NG_APP_FIREBASE_API_KEY'] || '',
+    authDomain: process.env['NG_APP_FIREBASE_AUTH_DOMAIN'] || '',
+    databaseURL: process.env['NG_APP_FIREBASE_DATABASE_URL'] || '',
+    projectId: process.env['NG_APP_FIREBASE_PROJECT_ID'] || '',
+    storageBucket: process.env['NG_APP_FIREBASE_STORAGE_BUCKET'] || '',
+    messagingSenderId: process.env['NG_APP_FIREBASE_MESSAGING_SENDER_ID'] || '',
+    appId: process.env['NG_APP_FIREBASE_APP_ID'] || ''
   }
 };

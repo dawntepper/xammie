@@ -9,6 +9,7 @@ import { GardeningLandscapingService } from '../services/gardening-landscaping.s
 import { PurchasingDecisionsService } from '../services/purchasing-decisions.service';
 import { RenewableEnergyService } from '../services/renewable-energy.service';
 import { LifestyleChangesService } from '../services/lifestyle-changes.service';
+import { FeedItem } from '../models/feed-item.model';
 
 @Component({
   selector: 'app-home',
@@ -34,6 +35,7 @@ export class HomePage implements OnInit {
 
   ngOnInit() {
     this.loadFeed();
+
   }
 
   loadFeed() {
@@ -47,21 +49,52 @@ export class HomePage implements OnInit {
       this.calculateTotalCarbonSaved(data);
     });
 
-    // Repeat for other services...
-
     this.waterUsageService.getWaterUsage().subscribe(data => {
       this.feed = this.feed.concat(data);
       this.calculateTotalCarbonSaved(data);
     });
 
-    // And so on for each service...
+    this.energyEfficiencyService.getEnergyEfficiency().subscribe(data => {
+      this.feed = this.feed.concat(data);
+      this.calculateTotalCarbonSaved(data);
+    });
+
+    this.transportationAlternativesService.getTransportationAlternatives().subscribe(data => {
+      this.feed = this.feed.concat(data);
+      this.calculateTotalCarbonSaved(data);
+    });
+    
+    this.electronicsGadgetsService.getElectronicGadgets().subscribe(data => {
+      this.feed = this.feed.concat(data);
+      this.calculateTotalCarbonSaved(data);
+    });
+
+    this.gardeningLandscapingService.getGardeningLandscaping().subscribe(data => {
+      this.feed = this.feed.concat(data);
+      this.calculateTotalCarbonSaved(data);
+    });
+
+    this.purchasingDecisionsService.getPurchasingDecisions().subscribe(data => {
+      this.feed = this.feed.concat(data);
+      this.calculateTotalCarbonSaved(data);
+    });
+
+    this.renewableEnergyService.getRenewableEnergy().subscribe(data => {
+      this.feed = this.feed.concat(data);
+      this.calculateTotalCarbonSaved(data);
+    });
+
+    this.lifestyleChangesService.getLifestyleChanges().subscribe(data => {
+      this.feed = this.feed.concat(data);
+      this.calculateTotalCarbonSaved(data);
+    });
   }
 
   calculateTotalCarbonSaved(data: any[], criteria?: any) {
     data.forEach(item => {
       if (item.carbonFootprintSaved) {
         this.totalCarbonSaved += item.carbonFootprintSaved;
-  
+        
         if (criteria) {
           // Filter data based on criteria
           // Example: Filter by country
