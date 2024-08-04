@@ -10,16 +10,14 @@ import { AppRoutingModule } from './app-routing.module'; // Ensure this path is 
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { environment } from '../environments/environment';
-import { EnvModule } from './env.module';
 
 @NgModule({
   imports: [
     BrowserModule,
-    IonicModule.forRoot(), // Ensure IonicModule is imported and initialized here
+    IonicModule.forRoot(),
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
-    AngularFirestoreModule,
-    EnvModule
+    AngularFirestoreModule
   ],
   providers: [
     StatusBar,

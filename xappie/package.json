@@ -7,9 +7,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
+    "build:prod": "ng build prod",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -36,12 +37,14 @@
     "firebase": "^10.12.5",
     "firebase-admin": "^12.3.0",
     "ionicons": "^7.4.0",
+    "process": "^0.11.10",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2"
   },
   "devDependencies": {
     "@angular-builders/custom-webpack": "^18.0.0",
+    "@angular-builders/dev-server": "^7.3.1",
     "@angular-devkit/build-angular": "^18.0.0",
     "@angular-eslint/builder": "^18.0.0",
     "@angular-eslint/eslint-plugin": "^18.0.0",
@@ -54,6 +57,7 @@
     "@capacitor/cli": "6.1.1",
     "@ionic/angular-toolkit": "^11.0.1",
     "@types/jasmine": "~5.1.0",
+    "@types/node": "^22.1.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "dotenv": "^16.4.5",

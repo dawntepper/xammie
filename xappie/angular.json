@@ -17,10 +17,7 @@
       "architect": {
         "build": {
           "builder": "@angular-builders/custom-webpack:browser",
-        "options": {
-          "customWebpackConfig": {
-            "path": "./webpack.config.js"
-          },
+          "options": {
             "outputPath": "www",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -35,7 +32,10 @@
               }
             ],
             "styles": ["src/global.scss", "src/theme/variables.scss"],
-            "scripts": []
+            "scripts": [],
+            "customWebpackConfig": {
+              "path": "./webpack.config.js"
+            }
           },
           "configurations": {
             "production": {
@@ -74,13 +74,16 @@
           "defaultConfiguration": "production"
         },
         "serve": {
-          "builder": "@angular-devkit/build-angular:dev-server",
+          "builder": "@angular-builders/custom-webpack:dev-server",
+          "options": {
+            "browserTarget": "app:build"
+          },
           "configurations": {
             "production": {
-              "buildTarget": "app:build:production"
+              "browserTarget": "app:build:production"
             },
             "development": {
-              "buildTarget": "app:build:development"
+              "browserTarget": "app:build:development"
             },
             "ci": {
               "progress": false
@@ -91,7 +94,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "app:build"
+            "browserTarget": "app:build"
           }
         },
         "test": {
